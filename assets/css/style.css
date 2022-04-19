@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Arial, serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header h1 {
+    color: rgb(62, 62, 62);
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 10rem 2rem 10rem;
+}
+
+header img {
+    width: 5%;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+section#status {
+    background-color: rgb(0, 10, 48);
+    color: white;
+}
+
+section#status h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 11.5rem 2rem 2rem 4rem;
+}
+
+.humor {
+    margin: 0 auto;
+    display: flex;
+}
+
+.humor img {
+    width: 15%;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.humor p {
+    color: white;
+    text-align: center;
+    padding: 12rem 3rem 2rem 2rem;
+}
+
+.botao {
+    margin: 12rem 5rem 12rem 2rem;
+    width: 90px;
+    color: whitesmoke;
+    background: rgb(118, 38, 38);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: rgb(169, 80, 80);
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
